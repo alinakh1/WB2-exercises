@@ -36,22 +36,22 @@ let advisingLocation;
 
 switch (studentMajor)
 {
-    case "BIOL":
-        advisingLocation = "Science Bldg, Room 310";
-        break;
-    case "CSCI":
-        advisingLocation = "Sheppard Hall, Room 314";
-        break; 
-    case "ENG":
-        advisingLocation = "Kerr Hall, Room 201";
-        break;
-    case "HIST":
-        advisingLocation = "Kerr Hall, Room 314";
-        break;  
-    case "MKT":
-        advisingLocation = "Westly Hall, Room 310";
-        break; 
-    default:
-        advisingLocation = "<unknown>"
-    }
-    console.log("Student name: " + name + " Student major: " + studentMajor + " Location: " + advisingLocation);
+case "BIOL":
+    advisingLocation = "Science Bldg, Room 310";
+    break;
+case "CSCI":
+    advisingLocation = "Sheppard Hall, Room 314";
+    break; 
+case "ENG":
+    advisingLocation = "Kerr Hall, Room 201";
+    break;
+case "HIST":
+    advisingLocation = "Kerr Hall, Room 314";
+    break;  
+case "MKT":
+    advisingLocation = "Westly Hall, Room 310";
+    break; 
+default:
+    advisingLocation = "<unknown>"
+}
+console.log("Student name: " + name + " Student major: " + studentMajor + " Location: " + advisingLocation);
