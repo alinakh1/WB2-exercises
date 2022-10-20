@@ -1,29 +1,29 @@
-let codeDep = 11;
+let codeDep = 20;
 let nameOfDep;
 
 switch(codeDep)
 {
 case 1:
     nameOfDep = "Marketing";
-    break;
+break;
 case 5:
     nameOfDep = "Human Resources";
-    break;
+break;
 case 10:
     nameOfDep = "Accounting";
-    break;
+break;
 case 12:
     nameOfDep = "Legal";
-    break;
+break;
 case 18:
     nameOfDep = "IT";
-    break;
+break;
 case 20:
     nameOfDep = "Customer Relations";
-    break;
+break;
 default:
     nameOfDep = "<unknown>";
-    break;
+break;
 }
 
 console.log("name of Department is " + nameOfDep);
