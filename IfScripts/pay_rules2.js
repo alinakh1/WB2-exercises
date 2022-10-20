@@ -10,12 +10,12 @@ grossPay1= payRate1 * hoursWorked1;
 else {
     grossPay1= (payRate1 * 40) + 1.5 * payRate1 * (hoursWorked1 - 40)
 };
-
+console.log( " Based on hours worked the Payment will be " + grossPay1);
 
 // Given variables to calculate gross pay
 var payRate2 = 25.00;
 var hoursWorked2 = 40;
-var grossPay2 = 250;
+var grossPay2;
 
 //Using If statement
 if (hoursWorked2<=40) {
@@ -25,12 +25,12 @@ if (hoursWorked2<=40) {
         grossPay2= (payRate2 * 40) + 1.5 * payRate2 * (hoursWorked2 - 40)
     };
 
-
+    console.log( " Based on hours worked the Payment will be " + grossPay2);
 
 // Given variables to calculate gross pay
 var payRate3 = 17.30;
 var hoursWorked3 = 45;
-var grossPay3 = 250;
+var grossPay3;
 
 //Using If statement
 if (hoursWorked3<=40) {
@@ -40,8 +40,8 @@ if (hoursWorked3<=40) {
     grossPay3= (payRate3 * 40) + 1.5 * payRate3 * (hoursWorked3 - 40)
     };
 
-    // Let's count and see the resut
-    console.log(grossPay1);
-    console.log(grossPay2);
-    console.log(grossPay3);
+    console.log( " Based on hours worked the Payment will be " + grossPay3);
+    
+   
+    
 
